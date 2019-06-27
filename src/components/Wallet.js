@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { balance } from "../actions/balance";
+import { deposit } from "../actions/balance";
 
 export class Wallet extends Component {
   constructor() {
@@ -35,5 +35,5 @@ function mapStateToProps(state) {
 
 export default connect(
   mapStateToProps,
-  null
+  { deposit }
 )(Wallet);
