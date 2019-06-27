@@ -37,7 +37,7 @@ export class Wallet extends Component {
 }
 
 function mapStateToProps(state) {
-  return { balance: state };
+  return { balance: state.balance };
 }
 
 export default connect(
