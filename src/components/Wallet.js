@@ -42,5 +42,5 @@ function mapStateToProps(state) {
 
 export default connect(
   mapStateToProps,
-  { deposit }
+  { deposit, withdraw }
 )(Wallet);
