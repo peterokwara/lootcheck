@@ -10,7 +10,7 @@ it("creates an action to set the balance", () => {
 
 it("creates an action to deposit into the account", () => {
   const deposit = 10;
-  const expectedAction = { type: cons tants.DEPOSIT, deposit };
+  const expectedAction = { type: constants.DEPOSIT, deposit };
 
   expect(actions.deposit(deposit)).toEqual(expectedAction);
 });
